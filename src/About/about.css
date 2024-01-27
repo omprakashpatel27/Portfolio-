@@ -1,0 +1,64 @@
+.outer-container-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+}
+
+.inner-container-about-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-inside-container-about {
+  height: 50%;
+  width: 80%;
+  border-radius: 50%;
+  display: block;
+  margin-top: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.inner-container-about-2 {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container-text {
+  max-width: 100%;
+  color: white;
+  font-size: 200%;
+  font-family: Helvetica;
+  padding: 2%;
+}
+
+@media (max-width: 600px) {
+  .inner-container-text {
+    color: white;
+    font-size: medium;
+    font-family: Helvetica;
+  }
+}
